@@ -6,10 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Afik Yefet Portfolio</title>
 </head>
-<body>
-    <div class="Menu-Bar">
-        <h1>AFIK YEFET</h1> <ul class="Menu-Items"> <il>About</il> <il>Skill's</il> <il>Contact me</il></ul>
-    </div>
+<body onload="updateScreen()">
+    <div class="bg-img">
+        <div class="interface">
+            <div class="screen">
+                <div class="mainS"><h1>Hey! I am <span>Afik Yefet</span>,<br>
+                a young Front-End Developer.</h1>
+                <br>
+                <h4>Tel Aviv - jaffo, Israel.</h4>
+                <br>
+            <h2>
+                I am a passionate Front End Web Developer with a keen eye for creating unique user experiences and clean intuitive designs.
+            </h2>
+            </div>
+                <div class="contactS">
+                    <h1>Contact me:</h1>
+                    <br>
+                    <br>
+                    <h3>afik.yefet@gmail.com</h3>
+                    <br>
+                    <h3>+972-525530451</h3>
+                    <br>
+                    <a target="_blank" href="https://www.linkedin.com/in/afik-yefet-906757326/"><h3>LinkedIn</h3></a>
+                </div>
+                <div class="skillsS">
+                    <img src="html-5.png" alt="html logo" width="30px"><h1 style="display: inline;"> HTML</h1>
+                    <br>
+                    <img src="css-3.png" alt="css logo" width="30px"><h1 style="display: inline;"> CSS</h1>
+                    <br>
+                    <img src="js.png" alt="js logo" width="30px"><h1 style="display: inline;"> JavaScript</h1>
+                    <br>
+                    <img src="xml.svg" alt="xpath logo" width="30px"><h1 style="display: inline;"> Xpath</h1>
+                </div>
+                <div class="meS">Me Section</div>
+
+            </div>
+            <div class="buttons">
+                <input name="nav" type="radio" class="hero" id="hero" checked>
+                <label for="hero">
+                    <div class="btn hero"><div class="gradText">Main</div></div>
+                </label>
     
+                <input name="nav" type="radio" class="contact" id="contact">
+                <label for="contact">
+                    <div class="btn contact"><div class="gradText">Contact</div></div>
+                </label>
+    
+                <input name="nav" type="radio" class="skills" id="skills">
+                <label for="skills">
+                    <div class="btn skills"><div class="gradText" >skills</div></div>
+                </label>
+
+                <!-- <input name="nav" type="radio" class="img" id="img">
+                <label for="img">
+                    <div class="btn img"><div class="gradText">Me</div></div>
+                </label> -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
